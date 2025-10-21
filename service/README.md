@@ -12,6 +12,14 @@ mvn clean package
 
 ## Run
 
+Development mode:
+
 ```bash
 mvn quarkus:dev
+```
+
+Production build:
+
+```bash
+java -jar target/quarkus-app/quarkus-run.jar
 ```
