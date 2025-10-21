@@ -1,5 +1,6 @@
 package airhacks.qmp.greetings.boundary;
 
+import airhacks.qmp.greetings.control.Greeter;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.Consumes;
