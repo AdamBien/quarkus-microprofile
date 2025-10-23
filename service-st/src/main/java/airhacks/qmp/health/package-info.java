@@ -10,4 +10,4 @@
  * All MicroProfile REST client interfaces in this source directory (src/main/java) are packaged
  * into a jar and can be reused as clients by other services.
  */
-package airhacks.qmp.greetings.boundary;
+package airhacks.qmp.health;
