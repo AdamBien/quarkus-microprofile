@@ -12,7 +12,7 @@ Quarkus MicroProfile template using Boundary-Control-Entity (BCE) architectural 
 - **Control**: Business logic and procedural code - stateless processing
 - **Entity**: Domain objects, data classes, and entities
 
-[BCE pattern]https://bce.design
+[BCE pattern](https://bce.design) | [MicroProfile Server Best Practices](https://github.com/AdamBien/airails/blob/main/bce/microprofile-server/SKILL.md)
 
 ### Package Structure
 
