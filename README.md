@@ -4,6 +4,10 @@ Quarkus MicroProfile template with BCE architecture pattern. Features boundary-c
 
 BCE-structured 👉 [bce.design](https://bce.design) | AI-assisted with 👉 [airails.dev](https://airails.dev)
 
+## Getting Started
+
+See [AGENTS.md](AGENTS.md#build--test) for build, dev mode, and system test instructions.
+
 ## Modules
 
 - [service](service/README.md) - Quarkus application module with BCE structure
