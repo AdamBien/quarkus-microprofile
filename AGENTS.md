@@ -56,22 +56,6 @@ mvn verify
 mvn package
 ```
 
-## Code Style
-
-### Java Version
-
-Java 25 with modern syntax:
-- Use `var` for local variables
-- Pattern matching
-- Text blocks for multiline strings
-- Records for immutable data
-
-## Security Considerations
-
-- Avoid command injection, XSS, SQL injection
-- Do not commit secrets (.env, credentials files)
-- Use proper input validation in resources
-
 ## Dependencies
 
 **IMPORTANT**: Always ask before adding new dependencies to `pom.xml`. This project minimizes external dependencies and relies on Java SE APIs and MicroProfile standards.
