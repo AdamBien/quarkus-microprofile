@@ -8,14 +8,6 @@ Quarkus MicroProfile template using Boundary-Control-Entity (BCE) architectural 
 
 Follows the [BCE pattern](https://bce.design).
 
-### Package Structure
-
-```
-airhacks.[app-name].[component-name].[boundary|control|entity]
-```
-
-Example: `airhacks.qmp.greetings.boundary.GreetingResource`
-
 ### Modules
 
 - `service/` - Main Quarkus application with BCE structure
