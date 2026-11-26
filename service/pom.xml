@@ -6,6 +6,7 @@
     <groupId>airhacks</groupId>
     <artifactId>service</artifactId>
     <version>2026</version>
+    <packaging>quarkus</packaging>
 
     <properties>
         <compiler-plugin.version>3.16.0</compiler-plugin.version>

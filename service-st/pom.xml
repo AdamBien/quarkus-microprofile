@@ -5,7 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>airhacks</groupId>
     <artifactId>service-st</artifactId>
-       <version>2026</version>
+    <version>2026</version>
+    <packaging>quarkus</packaging>
 
     <properties>
         <compiler-plugin.version>3.16.0</compiler-plugin.version>
@@ -15,7 +16,7 @@
         <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
         <quarkus.platform.group-id>io.quarkus.platform</quarkus.platform.group-id>
         <quarkus.platform.version>4.0.1</quarkus.platform.version>
-        <skipITs>true</skipITs>
+        <skipITs>false</skipITs>
         <surefire-plugin.version>3.5.6</surefire-plugin.version>
     </properties>
 
@@ -53,7 +54,7 @@
         </dependency>
     </dependencies>
 
-       <build>
+    <build>
         <plugins>
             <plugin>
                 <groupId>${quarkus.platform.group-id}</groupId>
@@ -93,7 +94,8 @@
                 <configuration>
                     <argLine>@{argLine}</argLine>
                     <systemPropertyVariables>
-                        <native.image.path>${project.build.directory}/${project.build.finalName}-runner</native.image.path>
+                        <native.image.path>
+                            ${project.build.directory}/${project.build.finalName}-runner</native.image.path>
                         <java.util.logging.manager>org.jboss.logmanager.LogManager</java.util.logging.manager>
                         <maven.home>${maven.home}</maven.home>
                     </systemPropertyVariables>
